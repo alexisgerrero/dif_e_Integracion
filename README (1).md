@@ -1,22 +1,12 @@
-# Unidad 4: Integración numérica
-
-Implementación en Java de los métodos de **Trapecio Compuesto** y **Simpson 1/3 Compuesto**, con refinamiento del número de subintervalos hasta que la diferencia entre dos aproximaciones consecutivas sea menor o igual que la tolerancia indicada.
-
-## Requisitos
-
-- Tener instalado el **JDK de Java**.
-- Contar con una terminal o un IDE, por ejemplo Visual Studio Code con las extensiones de Java.
-
 ## Estructura del proyecto
 
 La carpeta del proyecto debe tener esta estructura:
 
 ```text
-C1U4/
-├── README.md
 └── dif_e_Integracion/
     ├── MainTrap.java
     ├── TrapecioCompuesto.java
+    ├── README.md
     └── SimpsonCompuesto.java
 ```
 
@@ -36,7 +26,7 @@ El criterio de paro compara el valor calculado en una iteración con el de la it
 
 ## Compilar y ejecutar desde la terminal
 
-Abre una terminal en la carpeta raíz `C1U4`, donde se encuentra el archivo `README.md`.
+Abre una terminal en la carpeta raíz , donde se encuentra el archivo `README.md`.
 
 ### Windows
 
@@ -105,8 +95,6 @@ Resultado final Simpson: 2.6666666667
 
 Valor exacto: 2.6666666667
 ```
-
-**Nota:** el bloque es una referencia del formato esperado, basado en `f(x)=x^2`, el intervalo `[0,2]` y la tolerancia `0.0001`. Para entregar la práctica, conviene ejecutar el programa y sustituirlo por la salida real de tu versión, especialmente si modificaste los mensajes de impresión.
 
 ## Comparación de los métodos
 
